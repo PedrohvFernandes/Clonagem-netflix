@@ -1,0 +1,7 @@
+/* definindo as variaveis dentro da raiz do documento: root */
+:root{
+    --vermelho: #E50914;
+    --preta: #141414;
+    --cinza:#AAA;
+    --branco:#FFF;
+}
