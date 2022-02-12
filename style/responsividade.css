@@ -1,0 +1,40 @@
+/* Responsividade */
+/* @media (max-width:700px){
+
+} */
+@media screen and (max-width: 1024px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .botoes {
+    flex-direction: column;
+  }
+  .botao {
+    margin-top: 5px;
+    width: 300px;
+    height: 60px;
+  }
+  .iframe-div {
+    width: auto;
+    height: 50%;
+  }
+  .carrosel-filmes {
+    margin-top: 40px;
+  }
+
+  .iframebotton {
+    display: none;
+    position: absolute;
+    left: 35px;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .descricao {
+    width: 60%;
+  }
+}
