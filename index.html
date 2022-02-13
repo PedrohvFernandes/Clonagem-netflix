@@ -63,12 +63,16 @@
             impedir qualquer um que atrapalhar.
           </p>
           <div class="botoes">
-            <button onclick="iframePlay()" role="button" class="botao btn">
+            <button
+              onclick="toggleVideo()"
+              role="button"
+              class="botao btn"
+            >
               <i class="fa-solid fa-play"></i>
               ASSISTIR AGORA O TRAILER
             </button>
             <button
-              onclick="iframeNoPlay()"
+              onclick="toggleVideo('hide')"
               role="button"
               class="botao btn iframebotton"
               id="iframebotton"
@@ -76,12 +80,6 @@
               <i class="fa-solid fa-xmark"></i>
               FECHAR O TRAILER
             </button>
-            <div id="iframe" class="iframe-div">
-              <iframe
-                class="frame-youtube"
-                src="https://www.youtube.com/embed/IZFUxDKUKbw"
-              ></iframe>
-            </div>
             <a
               rel="noreferrer"
               target="_blank"
@@ -102,6 +100,16 @@
                 MAIS INFORMAÇÕES
               </button>
             </a>
+          </div>
+          <div id="iframe" class="iframe-div">
+            <!-- No link pra função toggleVideo('hide') funcionar tem que colocar ?html5=1&enablejsapi=1 e substituir o watch?v= por embed pro iframe pegar
+             ?enablejsapi=1ao URL do YouTube, para habilitar o recurso que é chamar os métodos pauseVideo e playVideo -->
+            <iframe
+              class="frame-youtube"
+              src="https://www.youtube.com/embed/IZFUxDKUKbw?html5=1&enablejsapi=1"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </div>

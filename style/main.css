@@ -139,7 +139,7 @@ header nav a:hover {
 
 /* Iframe */
 .iframe-div {
-  position: absolute;
+  position: fixed;
   width: 50%;
   height: 50%;
   z-index: 2;
@@ -157,7 +157,7 @@ header nav a:hover {
 
 .iframebotton {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 10%;
   left: 45%;
 }
