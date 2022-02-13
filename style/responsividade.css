@@ -26,9 +26,7 @@
 
   .iframebotton {
     display: none;
-    position: absolute;
     left: 35px;
-    margin: auto;
     margin-top: 20px;
   }
 }
