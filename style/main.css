@@ -26,13 +26,14 @@ header .container {
 .logo {
   color: var(--vermelho);
   font-family: "Arial Black", Times;
-  font-size: 40px;
-  margin-left: 5px;
+  font-size: 4rem;
+  margin-left: 0.5rem;
 }
 
 header nav a {
   color: var(--cinza);
-  margin-right: 10px;
+  margin-right: 1rem;
+  font-size: 1.6rem;
 }
 
 header nav a:hover {
@@ -41,11 +42,10 @@ header nav a:hover {
 
 /* filme principal */
 .filmes-principal {
-  font-size: 16px;
+  font-size: 1.6rem;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
     url("/assets/img/Capa de fundo peaky blinders.jpg");
 
-  height: 800px;
   background-size: cover;
 
   display: flex;
@@ -55,35 +55,35 @@ header nav a:hover {
 }
 
 .filmes-principal .descricao {
-  margin-bottom: 40px;
-  margin-top: 10px;
+  margin-bottom: 4rem;
+  margin-top: 1rem;
 }
 
 .titulo {
-  font-size: 40px;
+  font-size: 4rem;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   margin-top: 15%;
 }
 
 .descricao {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 .botao {
   background-color: rgba(0, 0, 0, 0.5);
 
-  padding: 15px 30px;
+  padding: 1.5rem 3rem;
 
-  margin-right: 15px;
-  font-size: 12px;
+  margin-right: 1.5rem;
+  font-size: 1.2rem;
 
   cursor: pointer;
 }
 
 .btn {
   border-color: var(--vermelho);
-  border-radius: 5px;
+  border-radius: 0.5rem;
   color: var(--branco);
   position: relative;
   overflow: hidden;
@@ -114,12 +114,12 @@ header nav a:hover {
 }
 
 .botao i {
-  margin-right: 8px;
-  font-size: 20px;
+  margin-right: 0.8rem;
+  font-size: 2rem;
 }
 
 .container {
-  margin-left: 20px;
+  margin-left: 2rem;
 }
 
 .filmes-principal .container {
@@ -134,7 +134,7 @@ header nav a:hover {
 }
 
 .carrosel-filmes {
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 
 /* Iframe */
